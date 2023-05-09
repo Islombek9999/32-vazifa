@@ -516,10 +516,50 @@ footer{
          height: 4opx;
          right: 0;
          margin: 0 20px;
-         cursor: pointer;  
+         cursor: pointer; 
+         transition:  4s ease; 
         }
         .navigation{
             display: none;
+        }
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .main{
+        .content{
+            h2{
+              font-size: 25px;  
+            }
+            h3{
+                font-size: 30px;
+            }
+        }
+    }
+    .section-title{
+       font-size: 40px; 
+    }
+    .about .content{
+        flex-direction: column;
+        .column{
+            position: relative;
+            width: 100%;
+
+        }
+        .col-right{
+            margin-top: 40px;
+        }
+    }
+    .skills{
+        .content{
+            flex-direction: column;
+            .column{
+                position: relative;
+                width: 100%;
+            }
+            .col-right{
+                margin-top: 40px;
+            }
         }
     }
     
